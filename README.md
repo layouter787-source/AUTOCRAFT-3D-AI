@@ -688,49 +688,39 @@ Critérios para aceitar integração externa: licença compatível com distribui
 
 ## 14. Catálogo de referências técnicas do PDF
 
-Os projectos abaixo são candidatos de investigação, não dependências aprovadas automaticamente. Verificar estado, versões, licença, issues, dependências e testes antes de integrar.
+Os itens abaixo foram identificados no PDF como referências para avaliação, não como dependências aprovadas. O texto extraído do PDF não fornece URLs completos para todos os projectos; por isso, não inventamos endereços. Antes de integrar, localizar o repositório oficial e verificar versão, licença, manutenção, dependências, issues e testes.
 
 ### Blender, MCP e skills
-- [Blender MCP — teamipc](https://github.com/teamipc/blender-mcp)
-- [Blender MCP Ultra — carlosh7](https://github.com/carlosh7/blender-mcp)
-- [BlendRelay MCP](https://github.com/)
-- [Blender MCP — ceeyang](https://github.com/)
-- [MCP servers catalogue](https://github.com/modelcontextprotocol/servers)
+- Blender MCP — teamipc.
+- Blender MCP Ultra — carlosh7.
+- BlendRelay MCP.
+- Blender MCP — ceeyang.
+- Catálogo de servidores MCP.
 
 ### Reconstrução e geração 3D
-- [Stable Fast 3D](https://github.com/Stability-AI/stable-fast-3d)
-- [Hunyuan3D-2](https://github.com/Tencent-Hunyuan/Hunyuan3D-2)
-- [TRELLIS](https://github.com/microsoft/TRELLIS)
-- [PIXFORM](https://github.com/)
-- [TripoSR](https://github.com/VAST-AI-Research/TripoSR)
+- Stable Fast 3D.
+- Hunyuan3D-2.
+- TRELLIS.
+- PIXFORM.
+- TripoSR.
 
 ### Automóveis e rigging
-- [Rigacar](https://github.com/ivarosil/Rigacar)
-- Rigacar 5 fork: identificar e auditar o fork exacto antes de integrar.
-- Car generation and modeling: referência a avaliar; maturidade e âmbito por confirmar.
+- Rigacar.
+- Rigacar 5 fork — identificar o fork exacto antes de avaliar.
+- Car generation and modeling — maturidade e âmbito por confirmar.
 
-### Documentação oficial
-- [Android Jetpack Compose](https://developer.android.com/compose)
-- [Android NDK](https://developer.android.com/ndk)
-- [NDK + CMake](https://developer.android.com/ndk/guides/cmake)
-- [Filament](https://github.com/google/filament)
-- [Filament documentation](https://google.github.io/filament/)
-- [Blender Python API](https://docs.blender.org/api/current/)
-- [MCP specification](https://modelcontextprotocol.io/)
-- [Playwright MCP](https://github.com/microsoft/playwright-mcp)
-- [OpenAI Agents SDK](https://openai.github.io/openai-agents-python/)
-- [Khronos glTF](https://www.khronos.org/gltf/)
+### Documentação e tecnologias oficiais mencionadas
+- Android Jetpack Compose.
+- Android NDK e NDK + CMake.
+- Filament: introdução, PBR e exemplos Android.
+- Blender Python API e visão geral da API.
+- Especificação MCP.
+- Playwright MCP.
+- OpenAI Agents SDK, quickstart e tracing.
+- Khronos glTF.
+- Claude Code: overview, MCP, subagents, skills e hooks.
 
-### Claude Code
-Consultar documentação oficial para [overview](https://docs.anthropic.com/en/docs/claude-code/overview), MCP, subagents, skills e hooks. Claude Code é ferramenta de desenvolvimento e referência de desenho; não deve ser embutido/distribuído com AUTOCRAFT.
-
-### Notas técnicas preservadas
-- Blender MCP community tools são referências de prototipagem e catálogo; AUTOCRAFT cria tools nativas próprias.
-- Avaliar servidor oficial Blender separadamente de integrações comunitárias; não copiar nomes sem mapear contratos.
-- Modelos image-to-3D geram geometria inicial, não CAD automóvel validado.
-- Para geração 3D de qualidade, GPU e memória são críticas; backend remoto é opção inicial realista.
-- Licença de repositório, pesos e assets deve ser confirmada antes de distribuição comercial.
-- Pesquisa não substitui ensaios de integração nem revisão de código.
+As tecnologias e os repositórios evoluem. A lista é um catálogo de pesquisa da especificação v1.2, não uma declaração de compatibilidade, aprovação legal ou integração concluída.
 
 ## 15. Decisão de arquitectura de produto (fonte v1.2)
 
