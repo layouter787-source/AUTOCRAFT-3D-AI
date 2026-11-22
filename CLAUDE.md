@@ -13,7 +13,7 @@ O produto é um editor 3D Android com modelagem, escultura, materiais, UV, anima
 Antes de qualquer tarefa:
 1. Ler `README.md`.
 2. Ler `docs/android/AUTOCRAFT_ANDROID_PORTING_STRATEGY.md`.
-3. Consultar a especificação de produto v1.2 fornecida pelo utilizador quando estiver disponível no contexto de trabalho. A especificação define o produto e o roadmap.
+3. Se o PDF original v1.2 estiver disponível no contexto, usá-lo para conferir detalhes; não substituir nem contradizer a especificação incorporada no README sem registar uma decisão de produto.
 4. Inspeccionar o código real e os testes dos módulos que serão alterados.
 5. Verificar estado da branch, alterações locais e upstream antes de escrever.
 
