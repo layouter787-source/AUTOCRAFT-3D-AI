@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.22.1)
+project(autocraft_core LANGUAGES CXX)
+add_library(autocraft_core SHARED autocraft_jni.cpp)
+target_compile_features(autocraft_core PRIVATE cxx_std_20)
+target_compile_options(autocraft_core PRIVATE -Wall -Wextra -Werror)
